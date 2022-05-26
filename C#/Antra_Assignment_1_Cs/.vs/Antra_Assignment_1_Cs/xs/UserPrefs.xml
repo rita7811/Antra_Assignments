@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{B5D5E9A0-F661-4F35-B6BA-279730D0437C}|Default">
+  <MonoDevelop.Ide.ItemProperties.Antra__Assignment__1__Cs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.02UnderstandingTypes PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Antra_Assignment_1_Cs/Program.cs">
+    <Files>
+      <File FileName="Antra_Assignment_1_Cs/Program.cs" Line="75" Column="1" />
+      <File FileName="02UnderstandingTypes/Program.cs" Line="6" Column="35" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Antra_Assignment_1_Cs" expanded="True">
+            <Node name="02UnderstandingTypes" expanded="True" />
+            <Node name="Antra_Assignment_1_Cs" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
