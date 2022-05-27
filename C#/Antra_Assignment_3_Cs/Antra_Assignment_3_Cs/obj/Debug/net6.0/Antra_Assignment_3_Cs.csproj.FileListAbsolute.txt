@@ -1,0 +1,15 @@
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/bin/Debug/net6.0/Antra_Assignment_3_Cs
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/bin/Debug/net6.0/Antra_Assignment_3_Cs.deps.json
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/bin/Debug/net6.0/Antra_Assignment_3_Cs.runtimeconfig.json
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/bin/Debug/net6.0/Antra_Assignment_3_Cs.dll
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/bin/Debug/net6.0/Antra_Assignment_3_Cs.pdb
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/obj/Debug/net6.0/Antra_Assignment_3_Cs.csproj.AssemblyReference.cache
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/obj/Debug/net6.0/Antra_Assignment_3_Cs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/obj/Debug/net6.0/Antra_Assignment_3_Cs.AssemblyInfoInputs.cache
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/obj/Debug/net6.0/Antra_Assignment_3_Cs.AssemblyInfo.cs
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/obj/Debug/net6.0/Antra_Assignment_3_Cs.csproj.CoreCompileInputs.cache
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/obj/Debug/net6.0/Antra_Assignment_3_Cs.dll
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/obj/Debug/net6.0/refint/Antra_Assignment_3_Cs.dll
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/obj/Debug/net6.0/Antra_Assignment_3_Cs.pdb
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/obj/Debug/net6.0/Antra_Assignment_3_Cs.genruntimeconfig.cache
+/Users/rita/Doc-Local/C#/Antra_Assignment_3_Cs/Antra_Assignment_3_Cs/obj/Debug/net6.0/ref/Antra_Assignment_3_Cs.dll

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Antra_Assignment_3_Cs", "Antra_Assignment_3_Cs\Antra_Assignment_3_Cs.csproj", "{069476CD-D126-47CC-BDF2-F5EE37B70ABF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{069476CD-D126-47CC-BDF2-F5EE37B70ABF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{069476CD-D126-47CC-BDF2-F5EE37B70ABF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{069476CD-D126-47CC-BDF2-F5EE37B70ABF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{069476CD-D126-47CC-BDF2-F5EE37B70ABF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5FB415E-FD03-4426-846A-4F9668ACF5E3}
+	EndGlobalSection
+EndGlobal
