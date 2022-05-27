@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{A6378282-BAF0-4258-97A5-4C28A54CDD60}|Default">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Antra_Assignment_4_Cs/Program.cs">
+    <Files>
+      <File FileName="Antra_Assignment_4_Cs/Program.cs" Line="145" Column="32" />
+      <File FileName="Antra_Assignment_4_Cs/DataSet/Product.cs" Line="2" Column="40" />
+      <File FileName="Antra_Assignment_4_Cs/GenericRepository/IRepository.cs" Line="3" Column="50" />
+      <File FileName="Antra_Assignment_4_Cs/GenericRepository/GenericRepository.cs" Line="23" Column="43" />
+      <File FileName="Antra_Assignment_4_Cs/Presentation/ProductManage.cs" Line="78" Column="14" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Antra_Assignment_4_Cs" expanded="True">
+            <Node name="Antra_Assignment_4_Cs" expanded="True">
+              <Node name="DataSet" expanded="True" />
+              <Node name="GenericRepository" expanded="True" />
+              <Node name="Presentation" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Antra__Assignment__4__Cs PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
