@@ -1,0 +1,77 @@
+
+/* Footer 1 */
+.fixed-footer1{
+    position: fixed;
+    left: 0;
+    bottom: 50px;
+    width: 100%;
+    
+    background-color:rgb(44, 53, 53);
+    color: white;
+    padding: 0px 10px 10px 10px;
+}
+section{
+    float: left;
+    padding: 20px;
+    width: 20%; 
+}
+/* Navigation links */
+section a {
+    color: white;
+    text-decoration: none; /* To make all of the links on web page not have underlines */
+}
+section img {
+    width: 200px;
+}
+
+
+/* Footer 2 */
+.fixed-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color:rgb(19, 34, 34);
+    color: white;
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    padding: 0px 10px 10px 20px;
+}
+.fixed-footer > div {
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    text-align: left;
+    padding: 20px 0;
+    font-size: 12px;
+}
+.copyright{
+    grid-column: 1 / 4;
+}
+.icon-bar {
+    grid-column: 4;
+}
+/* Style the icon bar links */
+.icon-bar a {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 12px;
+}
+/* Select and Style the social media icons with color, when mouse over it */
+.icon-bar a:hover {
+   color: gray;
+}
+.facebook {
+    color: white;
+}
+.twitter {
+    color: white;
+}
+.linkedin {
+    color: white;
+}
+
+
+

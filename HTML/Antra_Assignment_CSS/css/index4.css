@@ -1,0 +1,125 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: Arial;   /* set the font as "Arial" */
+    top: 0%;
+}
+
+/* Header */
+.header {
+    position: relative;
+    left: 0;
+    width: 100%;
+    height: 250px;
+
+    background-image: url(/images/pexels-felix-mittermeier-956981.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.9;   /* The lower value, the more transparent */
+}
+.header > h1 {
+    font-size: xx-large;
+    color: white;
+    position:absolute;
+    right: 10px;
+    bottom: 50px;
+}
+.topnav{
+    position: relative;
+    left: 0;
+    top: 200px;
+    width: 100%;
+    height: 50px;
+    background-color: lightgray;
+    overflow: none;
+}
+.topnav a{
+    float: left;
+    color: grey;
+    text-align: center;
+    text-decoration: none;
+    font-size: x-large;
+    padding: 14px 16px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.action {
+    background-color: rgb(107, 107, 107);
+    color: white;
+}
+
+
+
+
+/* Body */
+.content {
+    position: relative;
+    font-family: Arial;
+    overflow: scroll;
+    left: 0;
+}
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 70%;
+    padding-left: 50px;
+}
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 50px;
+}
+/* Add a box effect for articles */
+.box {
+    border: 1px solid #ddd;
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Clear floats after the columns */
+.content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.subbox{
+    padding: 20px;
+    margin-top: 20px;
+}
+/* image */
+.image {
+    background-color: #aaa;
+    float: left;
+    width: 30%;
+    height: 80%;
+    margin-right: 10px;
+}
+/* Add a box effect for articles */
+.boxgrey {
+    border: 1px solid #ddd;
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color:rgba(1, 12, 27, 0.579);
+}
+

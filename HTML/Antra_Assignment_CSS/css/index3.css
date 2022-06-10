@@ -1,0 +1,122 @@
+
+/* header */
+header{
+    background-image: url(/images/pexels-felix-mittermeier-956981.jpg);
+    position: fixed;
+    left: 0;
+    top: 0px;
+    width: 100%;
+    height: 55px;
+
+}
+.button{
+    background-color: rgb(234, 176, 69);
+    float: right;
+    border: none;
+    color: white;
+    padding: 10px 14px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+/* body */
+body{
+    background-color: lightgray;
+    position: relative;
+    left: 10px;
+    top: 55px;
+    width: 100%;
+    overflow: scroll;
+    margin: 0px 10px 10px 10px;
+}
+body h1{
+    margin: 25px;
+    font-size: 24px;
+}
+
+section{
+    background-color: white;
+    height: 500px;
+    width: 25%; 
+    float: left; /* order for news1 2 3 */
+    margin: 15px;
+
+    padding: 10px 10px;
+    border: 10px solid lightgray;
+}
+.block1{
+    position: flex;
+    margin: 10px 10px 10px 10px;
+    height: 100px;
+    width: 95%; 
+}
+.block1 h2{
+    text-align: left;
+    color:rgb(40, 63, 105);
+    font-size: 16px;
+}
+.block1 h3{
+    text-align: right;
+    color:black;
+    font-size: 12px;
+}
+.block1 p{
+    text-align: left;
+    color:black;
+    font-size: 12px;
+}
+.block2{
+    position: flex;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    height: 250px;
+    width: 95%; 
+}
+.block2 p{
+    text-align: left;
+    color:black;
+    font-size: 12px;
+}
+.image {
+    width: 250px;
+    height: 150px
+}
+.block3{
+    position: flex;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    height: 250px;
+    width: 95%; 
+}
+.block3 p{
+    text-align: left;
+    color:black;
+    font-size: 12px;
+}
+
+
+.pagination{
+    display: inline-block;
+    width: 100%; 
+    margin: 25px;
+
+}
+.pagination a {
+    background-color: rgb(91, 119, 172);
+    color: white; 
+    float: left; /* order for 1 2 3 4 5 */
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+.pagination a.active {
+    background-color: rgb(234, 176, 69);
+    color: white;
+    border: 1px solid rgb(234, 176, 69);
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}

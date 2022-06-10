@@ -1,0 +1,228 @@
+
+* {box-sizing: border-box;}
+
+/* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+
+
+body{        
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-right: 5px;
+    padding-left: 5px;  
+}
+
+
+
+/* Style the header with a royalblue background and some padding */
+.header {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    padding: 20px;
+    /*overflow: hidden;  controls what happens to content that is too big to fit into an area.*/
+    background-color: rgb(45, 97, 140) ;
+}
+
+.header > div {
+    text-align: right;
+    padding: 8px 0px 0px 0px;
+    font-size: 8px;
+}
+
+
+/* Antra Logo */
+.fit-picture{
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+
+    width: 200px;
+}
+
+
+
+/* The search bar menu  */
+.searchbar{
+    grid-column: 4;
+    grid-row: 1;
+    
+    /* background-color: black; */
+    text-align: center;
+}
+
+.bell {
+    float: left;
+}
+
+/* search bar links */
+.searchbar a {
+    float: left;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+/* The subsearchbar menu */
+.subsearch {
+    float: left;
+}
+
+/* subsearch button */
+.subsearch .subsearchbtn {
+    font-size: 12px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}  
+
+/* Add a background color to navigation links on hover */
+.navbar a:hover, .subsearch:hover .subsearchbtn {
+    background-color: lightgray;
+}
+
+/* Style the subnav content - positioned absolute */
+.subsearch-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: auto;
+    z-index: 1;
+}
+  
+/* Style the subnav links inside the dropdown */
+.subsearch-dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}  
+
+/* Add a grey background color on hover */
+.subsearch-dropdown-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+/* When moving the mouse over the subnav container, open the subnav content */
+.subsearch:hover .subsearch-dropdown-content {
+    display: block;
+}
+
+
+/* search bar */
+/* Search_container */
+
+.searchbar .search-container {
+    float: left;
+    padding-right: 0%;
+}
+
+.searchbar input[type=text] {
+    float: left;
+    padding: 2px;
+    margin-top: 8px;
+    font-size: 12px;
+    border: none;
+}
+
+.searchbar .search-container button {
+    float: right;
+    padding: 2px 10px;
+    margin-top: 8px;
+    margin-right: 15px;
+    background: #ddd;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+
+.searchbar .search-container button:hover {
+background: #ccc;
+}
+
+
+
+
+
+
+/* The navigation menu */
+.navbar {
+    grid-column: 4;
+    grid-row: 2;
+
+    margin-right: 3px;
+    padding-bottom: 1px;
+}
+
+/* Navigation links */
+.navbar a {
+    float: left;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+    float: left;
+    overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+    font-size: 12px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}  
+
+/* Add a background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: lightgray;
+}
+
+/* Style the subnav content - positioned absolute */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightgray;
+    min-width: auto;
+    z-index: 1;
+}
+  
+/* Style the subnav links inside the dropdown */
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}  
+
+/* Add a grey background color on hover */
+.dropdown-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+
+/* When moving the mouse over the subnav container, open the subnav content */
+.subnav:hover .dropdown-content {
+    display: block;
+}
+
